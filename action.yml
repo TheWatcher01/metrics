@@ -2,9 +2,11 @@
 # Inputs and configuration
 
 inputs:
-
   # ====================================================================================
   # 🗃️ Base content
+
+  name: Metrics embed
+  uses: lowlighter/metrics@v3.34
 
   base:
     description: Base content
@@ -1490,7 +1492,6 @@ inputs:
   plugin_stock_interval:
     description: Time interval between points
     default: <default-value>
-
 
 # ====================================================================================
 # Action metadata
